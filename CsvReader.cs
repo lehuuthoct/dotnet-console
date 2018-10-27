@@ -16,7 +16,7 @@ namespace hwapp
       this.columns = columnLine.Split(',');
     }
 
-    public IEnumerable<KeyValuePair<string, string>> Lines
+    public IEnumerable<KeyValuePair<string, string>[]> Lines
     {
       get
       {
